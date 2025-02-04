@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Bottle', 'HelloPanda', 'Potato_sticks', 'Rita_zero_sugar', 'Salt']
+
+roboflow:
+  workspace: project-c6dcl
+  project: object_detection-xngop
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-c6dcl/object_detection-xngop/dataset/2

@@ -64,19 +64,17 @@ YOLOv8_Object_Detection_Project/
 ├── Real_photos/ 
 │ └── IMG_3766.HEIC 
 ├── trained_models/ 
-│ ├── yolov8_large_model.onnx 
-│ ├── yolov8_large_model_simplified.onnx 
-│ └── yolov8_large_model_quantized.onnx 
+│ ├── yolov8_large_model.onnx
 ├── runs/ 
 │ └── detect/ 
-│ └── train5/ 
-│ └── weights/ 
-│ ├── best.pt 
-│ └── best.onnx 
+│   └──── train5/ 
+│      └── weights/ 
+│         ├── best.pt 
+├── trained_models/
+│   └──  best.onnx 
+|   ├── yolo_best.pt
 ├── app/ 
 │ ├── main.py 
-│ ├── inference.py 
-│ └── preprocess.py 
 ├── README.md 
 └── requirements.txt
 ```
@@ -162,7 +160,6 @@ Within Roboflow, we meticulously annotated each image with precise bounding boxe
    project_dir = '/content/drive/MyDrive/Project'
    data_config = os.path.join(project_dir, 'data', 'object_detection_yolov8', 'data.yaml')
 ```
-
 # Initialize and train the model
 
 ```bash
@@ -240,14 +237,14 @@ Contributions are welcome! To contribute:
 
 ## 📜 License
 
-This project is distributed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is distributed under the MIT License. See the [iotech](LICENSE) file for more details.
 
 ---
 
 ## 📫 Contact
 
 * **Your Name** : [nawazktk99@gmail.com](Email Me "Email Me")
-* **GitHub** : [https://www.github.com/Aliktk/object_detection_yolov8](Repo)
+* **GitHub** : [https://www.github.com/Aliktk/iotech](Repo)
 
 ---
 
